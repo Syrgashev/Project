@@ -8,6 +8,6 @@ for x in line_voina:
     lst_dict[x] += 1
 
 print(lst_dict)
-
+print('*'*10)
 s = sorted(list(lst_dict.items()))
 print(s)
